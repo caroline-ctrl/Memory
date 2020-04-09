@@ -1,0 +1,9 @@
+.disp{
+    display: inline-block;
+    position: relative;
+}
+
+.disp img:nth-of-type(2){
+    position: absolute;
+    left: 0.2%;
+}

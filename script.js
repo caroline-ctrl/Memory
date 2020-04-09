@@ -1,9 +1,5 @@
-//   let test = document.getElementsByClassName('nbr')
-//   for (let i = 0; i < test.length; i++){
-//       test[i].src = "images/image" + Math.floor(Math.random() * 5) + ".gif"
-//     }
-
-
+/////////////////////////////////////////////////////////////////////////////////////
+// pour mettre de manière aléatoir les cartes sans qu'il y ai plus de deux répétition
 function shuffle(arr) {
     let ctr = arr.length // correspond a la longueur du tableau "table"
     let temp
@@ -43,3 +39,8 @@ for (let i = 0; i < result2.length; i++){
     document.getElementById("nbr44").src = "images/image" + result2[4] + ".gif"
     document.getElementById("nbr55").src = "images/image" + result2[5] + ".gif"
 }
+
+
+
+/////////////////////
+// couvrir les cartes
