@@ -114,91 +114,15 @@ function timetime()
 // comparaison avec les deux cartes retournées
 function verif()
 {
-
-
     if (tableau[0] != tableau[2]){
-        tableau[1].style.display = "block"
-        tableau[3].style.display = "block"
+        tableau[1].style.display = "inline-block"
+        tableau[3].style.display = "inline-block"
         tableau.splice(0, 5)
     } else {
         tableau[1].style.display = "none"
         tableau[3].style.display = "none"
         tableau.splice(0, 5)
-
     }
-
-
-    // let nbr1 = document.getElementById('nbr0').src
-    // let nbr2 = document.getElementById('nbr1').src
-    // let nbr3 = document.getElementById('nbr2').src
-    // let nbr4 = document.getElementById('nbr3').src
-    // let nbr5 = document.getElementById('nbr4').src
-    // let nbr6 = document.getElementById('nbr5').src
-    // let nbr11 = document.getElementById('nbr00').src
-    // let nbr22 = document.getElementById('nbr11').src
-    // let nbr33 = document.getElementById('nbr22').src
-    // let nbr44 = document.getElementById('nbr33').src
-    // let nbr55 = document.getElementById('nbr44').src
-
-
-
-    
-    // if (nbr0 == nbr00){
-    //     unie0.style.display = "none"
-    //     unie6.style.display = "none"
-    // } else {
-    //     unie0.style.display = "block"
-    //     unie6.style.display = "block"
-    // }
-
-    // if (nbr1 == nbr11){
-    //     unie1.style.display = "none"
-    //     unie7.style.display = "none"
-    // } else {
-    //     unie1.style.display = "block"
-    //     unie7.style.display = "block"
-    // }
-
-    // if (nbr2 == nbr22){
-    //     unie2.style.display = "none"
-    //     unie8.style.display = "none"
-    // } else {
-    //     unie2.style.display = "block"
-    //     unie8.style.display = "block"
-    // }
-
-    // if (nbr3 == nbr33){
-    //     unie3.style.display = "none"
-    //     unie9.style.display = "none"
-    // } else {
-    //     unie3.style.display = "block"
-    //     unie9.style.display = "block"
-    // }
-
-    // if (nbr4 == nbr44){
-    //     unie4.style.display = "none"
-    //     unie10.style.display = "none"
-    // } else {
-    //     unie4.style.display = "block"
-    //     unie10.style.display = "block"
-    // }
-
-    // if (nbr5 == nbr55){
-    //     unie5.style.display = "none"
-    //     unie11.style.display = "none"
-    // } else {
-    //     unie5.style.display = "block"
-    //     unie11.style.display = "block"
-    // }
-
-
-
-
-
-
-    // if ((recup == 0) && (recup == )){
-    //     unie0.style.display = "block"
-    // }
-    // si nom de l'image != du nom de l'image
-    // .style.display = "block"
 }
+
+// trouver comment bloquer les click entre deux tours.
